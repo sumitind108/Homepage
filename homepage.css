@@ -1,0 +1,158 @@
+/* Premium and Innovative CSS Code for Homepage */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    flex: 1 0 auto;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+    margin: 0;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #87CEEB
+    ;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #FFFF00;
+  }
+  
+  .hero {
+    background-color: #f9f9f9;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Features Section Styles */
+  .features {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .features h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .feature {
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .feature i {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .feature .btn {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .features {
+      flex-wrap: wrap;
+    }
+  
+    .feature {
+      flex-basis: 45%;
+      margin-bottom: 20px;
+    }
+  }
+  
